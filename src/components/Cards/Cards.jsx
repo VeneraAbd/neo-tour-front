@@ -1,9 +1,8 @@
 import React from 'react';
-import styles from "./DiscoverCards.module.css";
-// import ComponentContainer from '../Container/Container';
+import styles from "./Cards.module.css";
 
 
-const DiscoverCards = () => {
+const Cards = () => {
   return (
 
       <div className={styles.cardContainer}>
@@ -17,4 +16,4 @@ const DiscoverCards = () => {
   )
 }
 
-export default DiscoverCards;
+export default Cards;

@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import styles from "./Tabs.module.css";
-import DiscoverCards from "../DiscoverCards/DiscoverCards";
+import Cards from "../Cards/Cards";
+import { Link } from 'react-router-dom';
 
 const Tabs = () => {
     const tabs = ['Popular', 'Featured', 'Most Visited', 'Europe', 'Asia'];
@@ -26,7 +27,7 @@ const Tabs = () => {
             </ul>
             <div className={styles.tab_content}>
                 {/* <p>{`This is the content for ${activeTab}.`}</p> */}
-                <DiscoverCards/>
+                <Link to="detailpage"><Cards/></Link>
             </div>
         </div>
   )

@@ -1,8 +1,18 @@
 .container{
     width: 90%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
 }
 
 .title{
     font-size: 48px;
+}
+
+.cardsContainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1fr, 4);
+    grid-gap: 20px;
 }
