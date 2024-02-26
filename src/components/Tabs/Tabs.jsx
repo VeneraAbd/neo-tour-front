@@ -11,24 +11,24 @@ const Tabs = () => {
     }
 
     return (
-    <div>
-        <ul className={styles.tab_list}>
-            {tabs.map((tab, index) => (
-                <li
-                key={index}
-                className={`${styles.tab_item} ${activeTab === tab ? styles.active : ''}`}
-                onClick={() => handleTabClick(tab)}
-                >
-                    {tab}
-                    <div className={activeTab === tab ? styles.activeDot : styles.dot}></div>
-                </li>
-            ))}
-        </ul>
-        <div className={styles.tab_content}>
-            <p>{`This is the content for ${activeTab}.`}</p>
-            <DiscoverCards/>
+        <div className={styles.tabsContainer}>
+            <ul className={styles.tab_list}>
+                {tabs.map((tab, index) => (
+                    <li
+                    key={index}
+                    className={`${styles.tab_item} ${activeTab === tab ? styles.active : ''}`}
+                    onClick={() => handleTabClick(tab)}
+                    >
+                        {tab}
+                        {activeTab === tab && <div className={styles.activeDot}></div>} 
+                    </li>
+                ))}
+            </ul>
+            <div className={styles.tab_content}>
+                {/* <p>{`This is the content for ${activeTab}.`}</p> */}
+                <DiscoverCards/>
+            </div>
         </div>
-    </div>
   )
 }
 

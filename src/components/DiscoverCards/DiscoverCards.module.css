@@ -2,17 +2,24 @@
     position: relative;
     width: 384px;
     border-radius: 20px;
+    
 }
 
 .cardContainer img{
     width: 100%;
     border-radius: 20px;
     position: absolute;
+    overflow: hidden;
 }
 
 .cardTitle{
     position: absolute;
-    top: 220px;
+    top: 200px;
     color: white;
-    margin-left: 20px;
+    padding: 10px 0 30px 30px;
+    background-color: rgba(0, 0, 0, 0.5);;
+    width: 100%;
+    height: 55px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }

@@ -1,13 +1,13 @@
 import React from 'react';
-import PageBlock from '../PageBlock/PageBlock';
+import styles from "./Recomended.module.css";
 
 const Recomended = () => {
   return (
-    <div>
-      <PageBlock heading="Recomended">
-        cards
-      </PageBlock>
-    </div>
+      <section className={styles.container}>
+        <h1 className={styles.title}>Recommended</h1>
+
+      </section>
+    
   )
 }
 

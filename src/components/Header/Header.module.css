@@ -59,3 +59,7 @@
     max-width: 600px;
     height: auto;
 }
+
+.link{
+    text-decoration: none;
+}
