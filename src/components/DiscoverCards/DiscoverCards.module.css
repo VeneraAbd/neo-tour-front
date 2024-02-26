@@ -1,0 +1,18 @@
+.cardContainer{
+    position: relative;
+    width: 384px;
+    border-radius: 20px;
+}
+
+.cardContainer img{
+    width: 100%;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.cardTitle{
+    position: absolute;
+    top: 220px;
+    color: white;
+    margin-left: 20px;
+}

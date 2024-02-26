@@ -1,0 +1,24 @@
+.tab_list{
+    display: flex;
+
+}
+
+.tab_item{
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.64px;
+    cursor: pointer;
+    
+}
+.active{
+    color: #6A62B7;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.64px;
+}
+.dot{
+    width: 5px;
+    border-radius: 50%;
+    background-color: #6A62B7;
+}
