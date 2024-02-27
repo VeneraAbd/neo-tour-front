@@ -1,17 +1,21 @@
 .container{
     width: 100%;
 }
+
 .hero{
     width: 100%;
     position: relative;
 }
+
 .img{
     width: 100%;
     height: 80vh;
 }
+
 .link{
     text-decoration: none;
 }
+
 .button{
     font-size: 18px;
     color: white;
@@ -24,5 +28,77 @@
     top: 100px;
     left: 100px;
     border: none;
+    cursor: pointer;
+}
+
+.bottom_container{
+    width: 100%;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    gap: 50px;
+    padding: 60px 80px;
+}
+
+.place{
+    display: flex;
+    gap: 4px;
+}
+
+.title{
+    font-size: 64px;
+}
+
+.place img{
+    width: 16px;
+}
+
+.place p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.description h3,
+.review h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+.description {
+    font-size: 16px;
+    font-weight: 400;
+}
+.review{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.profile{
+    display: flex;
+    gap: 10px;
+}
+
+.profile_image{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.bookBtn{
+    width: 100%;
+    border-radius: 50px;
+    padding: 10px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32.4px;
+    border: none;
+    background-color: #6A62B7;
     cursor: pointer;
 }
