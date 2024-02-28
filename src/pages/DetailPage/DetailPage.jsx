@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import mount from "../../assets/mount.jpeg";
 import Modal from "../../components/Modal/Modal";
 import { useState } from "react";
-
+import Form from "../../components/Form/Form";
 const DetailPage = () => {
   const [modalActive, setModalActive] = useState(false);
 
@@ -49,7 +49,7 @@ const DetailPage = () => {
           <p className={styles.review}>That was such a nice place. The most beautiful place I’ve ever seen. My advice to everyone not to forget to take warm coat</p>
         </div>
         <button className={styles.bookBtn} onClick={() => setModalActive(true)}>Book now</button>
-        <Modal active={modalActive} setActive={setModalActive}><p>Hello, it's me!</p></Modal>
+        <Modal active={modalActive} setActive={setModalActive}><Form/></Modal>
       </div>
 
     </div>

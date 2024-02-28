@@ -1,0 +1,39 @@
+.label{
+    display: flex;
+    flex-direction: column;
+    color: #888888;
+}
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.wrapper{
+    display: flex;
+    width: 130px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F3F3F3;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.wrapper button{
+    width: 42px;
+    height: 48px;
+    border-radius: 16px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #897CFF;
+    border: none;
+
+}
+.user{
+    width: 20px;
+    height: 20px;
+}
+.numOfPeople{
+    font-size: 16px;
+    font-weight: 500;
+}
