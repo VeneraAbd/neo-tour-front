@@ -1,19 +1,17 @@
 import { useCallback, useRef } from "react";
 import Slider from "react-slick";
-import useSWRImmutable from "swr/immutable";
-import styles from "./ReusableCarousel.module.css";
+import styles from "./Carousel.module.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import prevArrowIcon from "../../assets/icons/arrowIcons/leftArrow.png";
-import nextArrowIcon from "../../assets/icons/arrowIcons/rightArrow.png";
-import { getAchievements } from "../../api/getAchievements";
-import PageBlock from "../PageBlock/PageBlock";
+import prev from "../../assets/prev.png";
+import next from "../../assets/next.png";
+import Cards from "../Cards/Cards";
 
-const ReusableCarousel = () => {
+const Carousel = ({data}) => {
   const sliderRef = useRef(null);
-  const { data } = useSWRImmutable("/achievements", getAchievements);
+ 
   const carouselContent = data?.slice(0, 10) || [];
-
+  console.log(data)
   const dotsFn = useCallback(
     (dots) => (
       <>
@@ -22,14 +20,14 @@ const ReusableCarousel = () => {
             className={styles.arrowButton}
             onClick={() => sliderRef.current?.slickPrev()}
           >
-            <img src={prevArrowIcon} alt="show previous" />
+            <img src={prev} alt="show previous" />
           </button>
           <ul> {dots} </ul>
           <button
             className={styles.arrowButton}
             onClick={() => sliderRef.current?.slickNext()}
           >
-            <img src={nextArrowIcon} alt="show next" />
+            <img src={next} alt="show next" />
           </button>
         </div>
       </>
@@ -38,7 +36,6 @@ const ReusableCarousel = () => {
   );
 
   return (
-    <PageBlock>
       <Slider
         ref={sliderRef}
         autoplay={true}
@@ -68,14 +65,14 @@ const ReusableCarousel = () => {
           },
         ]}
       >
-        {carouselContent.map((el) => (
-          <div key={el.id} className={styles.cardWrapper}>
-            <img src={el.image} alt="Card" className={styles.cardImage} />
+        {carouselContent.map((el) => ( 
+          <div className={styles.cardWrapper}>
+            <Cards data={carouselContent}/>
+             <img src={el.image} alt="Card" className={styles.cardImage} /> 
           </div>
         ))}
       </Slider>
-    </PageBlock>
   );
 };
 
-export default ReusableCarousel;
+export default Carousel;

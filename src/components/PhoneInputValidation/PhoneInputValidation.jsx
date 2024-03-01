@@ -4,13 +4,14 @@ import PhoneInput from 'react-phone-number-input';
 import styles from "./PhoneInputValidation.module.css";
 
 
-const PhoneInputValidation = () => {
+const PhoneInputValidation = ({onChange}) => {
 
     const [phoneNumber, setPhoneNumber] = useState('');
     const [valid, setValid] = useState(true);
 
     const handleChange = (value) =>{
         setPhoneNumber(value);
+        onChange(value)
         setValid(validatePhoneNumber(value))
     }
     
@@ -31,7 +32,6 @@ const PhoneInputValidation = () => {
             onChange={handleChange}
             style={{
                 fontSize: "30px",
-                
             }}
         />
    

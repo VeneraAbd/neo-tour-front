@@ -1,19 +1,33 @@
-import styles from "./DetailPage.module.css";
-import leftarrow from "../../assets/leftarrow.svg";
-import place from "../../assets/place.svg";
-import { Link } from "react-router-dom";
-import mount from "../../assets/mount.jpeg";
-import Modal from "../../components/Modal/Modal";
-import { useState } from "react";
-import Form from "../../components/Form/Form";
+
+import React, { useState, useEffect } from 'react';
+import { Link, useParams } from 'react-router-dom';
+import Modal from '../../components/Modal/Modal';
+import Form from '../../components/Form/Form';
+import styles from './DetailPage.module.css';
+import leftarrow from '../../assets/leftarrow.svg';
+import place from '../../assets/place.svg';
+import mockData from '../../components/Carousel/Carousel';
+
 const DetailPage = () => {
   const [modalActive, setModalActive] = useState(false);
+  const { id } = useParams();
+  const [details, setDetails] = useState(null);
+
+  useEffect(() => {
+    // Find the details for the current place based on id
+    const currentPlace = mockData.find(place => place.id === parseInt(id));
+    setDetails(currentPlace);
+  }, [id]);
+
+  if (!details) {
+    return null;
+  }
 
   return (
     <div className={styles.container}>
-      {/* background image of the detail page */}
+      {/* Background image of the detail page */}
       <div className={styles.hero}>
-        <img src={mount} alt="mount Fuji" className={styles.img}/>
+        <img src={details.image} alt={details.city} className={styles.img}/>
         <Link to="/" className={styles.link}>
           <button className={styles.button}>
             <img src={leftarrow} alt="left arrow" />
@@ -25,18 +39,18 @@ const DetailPage = () => {
       <div className={styles.bottom_container}>
         {/* Name of the place and its location */}
         <div className={styles.place_name}>
-          <h1 className={styles.title}>Mount Fuji</h1>
+          <h1 className={styles.title}>{details.nameOfThePlace}</h1>
           <div className={styles.place}>
             <img src={place} alt="place icon" />
-            <p className={styles.city}>Honshu, </p>
-            <p className={styles.country}>Japan</p>
+            <p className={styles.city}>{details.city}, </p>
+            <p className={styles.country}>{details.country}</p>
           </div>
         </div>
 
         {/* Description */}
         <div className={styles.description}>
           <h3>Description</h3>
-          <p className={styles.text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim eget amet viverra eget fames rhoncus. Eget enim venenatis enim porta egestas malesuada et. Consequat mauris lacus euismod montes.</p>
+          <p className={styles.text}>{details.description}</p>
         </div>
 
         {/* Reviews */}
@@ -56,4 +70,4 @@ const DetailPage = () => {
   )
 }
 
-export default DetailPage
+export default DetailPage;
