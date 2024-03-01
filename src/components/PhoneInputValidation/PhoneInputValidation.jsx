@@ -21,8 +21,10 @@ const PhoneInputValidation = ({onChange}) => {
     }
 
   return (
-   <div className={styles.inputSection}>
+   <div>
+   <label htmlFor="phoneNumber" className={styles.label}>Phone Number</label>
         <PhoneInput 
+            id="phoneNumber" name="phoneNumber" 
             className={valid ? styles.phoneInput : `${styles.phoneInput} ${styles.invalid}`}
             defaultCountry='KG'
             countries={['KG', 'US', 'RU']}

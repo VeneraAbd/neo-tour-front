@@ -10,6 +10,11 @@
 body{
   width: 100%;
 }
+.PhoneInput{
+  border: 1px solid #888888 !important;
+  border-radius: 100px !important;
+  padding: 20px !important;
+}
 .PhoneInputInput{
   outline: none !important;
   border:none !important;

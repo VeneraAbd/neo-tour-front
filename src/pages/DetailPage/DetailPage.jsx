@@ -63,7 +63,7 @@ const DetailPage = () => {
           <p className={styles.review}>That was such a nice place. The most beautiful place I’ve ever seen. My advice to everyone not to forget to take warm coat</p>
         </div>
         <button className={styles.bookBtn} onClick={() => setModalActive(true)}>Book now</button>
-        <Modal active={modalActive} setActive={setModalActive}><Form/></Modal>
+        <Modal active={modalActive} setActive={setModalActive}><Form active={modalActive} setActive={setModalActive} details={details}/></Modal>
       </div>
 
     </div>
