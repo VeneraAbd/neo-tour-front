@@ -1,18 +1,17 @@
 import React from 'react';
 import styles from "./Recomended.module.css";
+import mockData from '../Carousel/Carousel';
 import Cards from '../Cards/Cards';
-import mockData from "../Carousel/Carousel"; 
-import { useState } from 'react';
-import Carousel from '../Carousel/Carousel.jsx';
 
 const Recomended = () => {
-    
+
   return (
       <section className={styles.container}>
         <h1 className={styles.title}>Recommended</h1>
         <div className={styles.cardsContainer}>
           
-          <Carousel />
+            <Cards data={mockData} />
+  
         </div>
       </section>
     

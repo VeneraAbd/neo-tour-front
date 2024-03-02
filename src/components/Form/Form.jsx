@@ -1,5 +1,4 @@
 import axios from 'axios';
-import Modal from '../Modal/Modal';
 import React, { useState, useEffect } from 'react';
 import PhoneInputValidation from '../PhoneInputValidation/PhoneInputValidation';
 import styles from "./Form.module.css"
@@ -22,7 +21,7 @@ const Form = ({active, setActive, details}) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-  
+    console.log("Submitting form ....")
     // Checking if the clicked button has a type attribute set to "submit"
     if (e.nativeEvent.submitter && e.nativeEvent.submitter.getAttribute('type') === 'submit') {
       const formData = {
@@ -35,20 +34,18 @@ const Form = ({active, setActive, details}) => {
       try {
         const response = await axios.post('http://localhost:3000/order', formData);
         if (response) {
-          console.log('Form submitted successfully!');
+          console.log("Status:", response.status, 'Form submitted successfully!');
+          setCommentaries('');
           // setPhoneNumber('');
-          // setCommentaries('');
           // setNumberOfPeople(1);
           // setIsFormValid(false);
           setActive(false); 
         }
       } catch (error) {
         console.error('Error submitting form:', error);
-        setActive(true); // Show error modal
+        // setActive(true); // Show error modal
       }
-
-    }
-          
+    }    
   };
 
     // Callback function to update phoneNumber state in the Form component
@@ -82,4 +79,3 @@ const Form = ({active, setActive, details}) => {
 };
 
 export default Form;
-

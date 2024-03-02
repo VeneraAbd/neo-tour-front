@@ -1,0 +1,189 @@
+[
+    {
+        "id": 1,
+        "image": "https://images.adsttc.com/media/images/5d44/14fa/284d/d1fd/3a00/003d/large_jpg/eiffel-tower-in-paris-151-medium.jpg?1564742900",
+        "city": "Paris",
+        "country": "France",
+        "category": "Europe",
+        "nameOfThePlace": "Eiffel Tower",
+        "description": "The Eiffel Tower, originally intended to be a temporary exhibit, has become one of the most iconic landmarks in the world. It offers breathtaking views of Paris from its observation decks and attracts millions of visitors each year."
+    },
+    {
+        "id": 2,
+        "image": "https://www.fodors.com/wp-content/uploads/2018/10/HERO_UltimateRome_Hero_shutterstock789412159.jpg",
+        "city": "Rome",
+        "country": "Italy",
+        "category": "Europe",
+        "nameOfThePlace": "Colosseum",
+        "description": "The Colosseum, an ancient amphitheater located in the heart of Rome, is one of the most impressive architectural marvels of the Roman Empire. It hosted gladiator contests, animal hunts, and other spectacles, attracting crowds of up to 80,000 spectators."
+    },
+
+    {
+        "id": 3,
+        "image": "https://media.cntraveler.com/photos/60341fbad7bd3b27823c9db2/4:3/w_4624,h_3468,c_limit/Tokyo-2021-GettyImages-1208124099.jpg",
+        "city": "Tokyo",
+        "country": "Japan",
+        "category": "Asia",
+        "nameOfThePlace": "Tokyo Tower",
+        "description": "Tokyo Tower is a symbol of Tokyo, standing tall at 333 meters. It offers panoramic views of the city from its observation decks. Illuminated beautifully at night, its a must-visit landmark in Tokyo."  
+    },
+        {
+            "id": 4,
+            "image": "https://a.cdn-hotels.com/gdcs/production172/d459/3af9262b-3d8b-40c6-b61d-e37ae1aa90aa.jpg",
+            "city": "Bangkok",
+            "country": "Thailand",
+            "category": "Asia",
+            "nameOfThePlace": "Grand Palace",
+            "description": "The Grand Palace, located in the heart of Bangkok, is a magnificent complex of buildings that served as the official residence of the Kings of Siam. It houses impressive structures, including Wat Phra Kaew (Temple of the Emerald Buddha), which is highly revered."
+        },
+        {
+            "id": 5,
+            "image": "https://i.natgeofe.com/k/5b396b5e-59e7-43a6-9448-708125549aa1/new-york-statue-of-liberty_2x1.jpg",
+            "city": "New York City",
+            "country": "United States",
+            "category": "Popular",
+            "nameOfThePlace": "Statue of Liberty",
+            "description": "The Statue of Liberty, a symbol of freedom and democracy, stands proudly on Liberty Island in New York Harbor. It was a gift from France to the United States and has welcomed immigrants and visitors to New York City for over a century."
+        },
+            {
+                "id": 6,
+                "image": "https://media.tatler.com/photos/6141d37b9ce9874a3e40107d/16:9/w_2560%2Cc_limit/social_crop_sydney_opera_house_gettyimages-869714270.jpg",
+                "city": "Sydney",
+                "country": "Australia",
+                "category": "Popular",
+                "nameOfThePlace": "Sydney Opera House",
+                "description": "The Sydney Opera House is an iconic performing arts venue known for its distinctive sail-like design. It hosts a variety of performances, including opera, ballet, concerts, and more, attracting visitors from around the world."
+            },
+            {
+                "id": 7,
+                "image": "https://a.cdn-hotels.com/gdcs/production143/d357/42fb6908-dcd5-4edb-9f8c-76208494af80.jpg?impolicy=fcrop&w=800&h=533&q=medium",
+                "city": "Rio de Janeiro",
+                "country": "Brazil",
+                "category": "Featured",
+                "nameOfThePlace": "Christ the Redeemer",
+                "description": "Christ the Redeemer is an iconic statue of Jesus Christ located atop Corcovado Mountain in Rio de Janeiro. It offers breathtaking views of the city and is one of the New Seven Wonders of the World."
+            },
+        
+                {
+                    "id": 8,
+                    "image": "https://www.andbeyond.com/wp-content/uploads/sites/5/cape-town-aerial-view-greenpoint-stadium.jpg",
+                    "city": "Cape Town",
+                    "country": "South Africa",
+                    "category": "Featured",
+                    "nameOfThePlace": "Table Mountain",
+                    "description": "Table Mountain is a prominent landmark overlooking the city of Cape Town. Its a popular tourist destination known for its flat-topped summit, offering stunning panoramic views of the surrounding area."
+                },
+                {
+                    "id": 9,
+                    "image": "https://assets.editorial.aetnd.com/uploads/2019/03/topic-london-gettyimages-760251843-feature.jpg",
+                    "city": "London",
+                    "country": "United Kingdom",
+                    "category": "Most Visited",
+                    "nameOfThePlace": "Tower Bridge",
+                    "description": "Tower Bridge is an iconic bascule and suspension bridge spanning the River Thames in London. It's known for its impressive architecture and is one of the most recognizable landmarks in the city."
+                },
+                    {
+                        "id": 10,
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Dubai_Skylines_at_night_%28Pexels_3787839%29.jpg/640px-Dubai_Skylines_at_night_%28Pexels_3787839%29.jpg",
+                        "city": "Dubai",
+                        "country": "United Arab Emirates",
+                        "category": "Most Visited",
+                        "nameOfThePlace": "Burj Khalifa",
+                        "description": "Burj Khalifa is the tallest building in the world, located in the heart of Dubai. It offers breathtaking views of the city and is a major tourist attraction, featuring observation decks, luxury hotels, and more."
+                    },
+                    {
+                        "id": 11,
+                        "image": "https://i.natgeofe.com/n/535f3cba-f8bb-4df2-b0c5-aaca16e9ff31/giza-plateau-pyramids.jpg",
+                        "city": "Cairo",
+                        "country": "Egypt",
+                        "category": "Most Visited",
+                        "nameOfThePlace": "Great Pyramid of Giza",
+                        "description": "The Great Pyramid of Giza, also known as the Pyramid of Khufu or the Pyramid of Cheops, is one of the Seven Wonders of the Ancient World. It is the oldest and largest of the three pyramids in the Giza pyramid complex, and it has a rich history and significance in Egyptian culture."
+                    },
+                
+              
+                        {
+                            "id": 12,
+                            "image": "https://img.rasset.ie/001ed7d1-1600.jpg",
+                            "city": "Lima",
+                            "country": "Peru",
+                            "category": "Popular",
+                            "nameOfThePlace": "Machu Picchu",
+                            "description": "Machu Picchu is an ancient Incan city located in the Andes Mountains of Peru. It is renowned for its well-preserved ruins, stunning mountainous landscape, and mysterious history. Machu Picchu is a UNESCO World Heritage Site and one of the New Seven Wonders of the World."
+                        },
+                        {
+                            "id": 13,
+                            "image": "https://www.wendywutours.com.au/resource/upload/2072/gyeongbok-palace-banner.jpg.webp",
+                            "city": "Seoul",
+                            "country": "South Korea",
+                            "category": "Asia",
+                            "nameOfThePlace": "Gyeongbokgung Palace",
+                            "description": "Gyeongbokgung Palace, also known as the Northern Palace, is a grand royal palace located in Seoul, South Korea. It was the main royal palace of the Joseon dynasty and is renowned for its beautiful architecture, expansive grounds, and historical significance."
+                        },
+                        {
+                            "id": 14,
+                            "image": "https://www.safaris-uganda.com/wp-content/uploads/2022/05/Mara-tour-Kenya-Safari.jpg",
+                            "city": "Nairobi",
+                            "country": "Kenya",
+                            "category": "Popular",
+                            "nameOfThePlace": "Maasai Mara National Reserve",
+                            "description": "Maasai Mara National Reserve is a world-renowned wildlife sanctuary located in southwestern Kenya. It is famous for its exceptional population of lions, leopards, cheetahs, and the annual Great Migration of wildebeest, zebra, and other grazing animals."
+                        },
+                    
+                            {
+                                "id": 15,
+                                "image": "https://central-asia.guide/wp-content/uploads/2023/03/ala-archa-1024x682.jpg",
+                                "city": "Bishkek",
+                                "country": "Kyrgyzstan",
+                                "category": "Asia",
+                                "nameOfThePlace": "Ala Archa National Park",
+                                "description": "Ala Archa National Park is a picturesque natural reserve located near Bishkek, the capital city of Kyrgyzstan. It is known for its stunning alpine scenery, diverse wildlife, and outdoor recreational opportunities such as hiking, trekking, and mountaineering."
+                            },
+                            {
+                                "id": 16,
+                                "image": "https://gallerybyzantium.com/wp-content/uploads/2019/01/st-basil-cathedral_1.jpg",
+                                "city": "Moscow",
+                                "country": "Russia",
+                                "category": "Europe",
+                                "nameOfThePlace": "Saint Basil's Cathedral",
+                                "description": "Saint Basil's Cathedral, located in Moscow's Red Square, is a famous Russian Orthodox church renowned for its vibrant, onion-shaped domes and colorful exterior. It is a symbol of Russian architecture and a UNESCO World Heritage Site."
+                            },
+                            {
+                                "id": 17,
+                                "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/60/bb.jpg",
+                                "city": "Barcelona",
+                                "country": "Spain",
+                                "category": "Featured",
+                                "nameOfThePlace": "Park Güell",
+                                "description": "Park Güell is a public park located in Barcelona, Spain, designed by renowned architect Antoni Gaudí. It is known for its colorful mosaic sculptures, whimsical architecture, and panoramic views of the city. Park Güell is a UNESCO World Heritage Site."
+                            },
+                                {
+                                    "id": 18,
+                                    "image": "https://icelandtrippers.com/wp-content/uploads/2021/07/5-Things-To-Know-Before-Visiting-Gullfoss-Waterfall-Iceland-gullfoss-sunset.jpg",
+                                    "city": "Reykjavik",
+                                    "country": "Iceland",
+                                    "category": "Featured",
+                                    "nameOfThePlace": "Gullfoss Waterfall",
+                                    "description": "Gullfoss Waterfall is one of Iceland's most iconic natural attractions, located in the southwest part of the country. It is renowned for its stunning beauty, powerful cascades, and the rainbows that often form in the mist."
+                                },
+                                {
+                                    "id": 19,
+                                    "image": "https://cdn-imgix.headout.com/media/images/1140446ebc214211462c1f8158c14378-This%20is%20a%20Photograph%20of%20belem%20tower.jpg",
+                                    "city": "Lisbon",
+                                    "country": "Portugal",
+                                    "category": "Europe",
+                                    "nameOfThePlace": "Belem Tower",
+                                    "description": "Belem Tower, located in Lisbon, Portugal, is a historic fortress and UNESCO World Heritage Site. Built in the early 16th century, the tower served as a defense system for the city and played a significant role in Portugal's maritime history during the Age of Discovery. Its distinctive Manueline architecture, characterized by ornate decorations and maritime motifs, makes it a symbol of Portuguese maritime power and exploration. Visitors can explore the tower's interior, climb to the top for panoramic views of the Tagus River and surrounding area, and learn about its fascinating history through exhibitions and guided tours."
+                                },
+                                {
+                                    "id": 20,
+                                    "image": "https://res.cloudinary.com/take-memories/images/f_auto,dpr_auto,q_auto,w_1200,c_fill,h_628/v1649447041/Gro%C3%9Fe-Sultan-Qaboos-Moschee-Oman-1/Gro%C3%9Fe-Sultan-Qaboos-Moschee-Oman-1.jpg",
+                                    "city": "Muscat",
+                                    "country": "Oman",
+                                    "category": "Most Visited",
+                                    "nameOfThePlace": "Sultan Qaboos Grand Mosque",
+                                    "description": "The Sultan Qaboos Grand Mosque, located in Muscat, Oman, is a magnificent example of modern Islamic architecture. Completed in 2001, the mosque is named after Sultan Qaboos bin Said al Said and serves as a symbol of Oman's rich cultural heritage and religious identity. The mosque's stunning design features intricate marble work, exquisite calligraphy, and a grand central dome adorned with a magnificent chandelier. Visitors can marvel at the mosque's beauty, explore its ornate prayer halls and courtyards, and experience a sense of tranquility and spirituality in this sacred place of worship."
+                                }
+      
+]
+

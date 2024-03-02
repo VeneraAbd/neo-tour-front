@@ -8,25 +8,18 @@
       "tourInfo": "Place"
     },
     {
-      "id": "fa21",
-      "phoneNumber": "+996776767676",
-      "commentaries": "testing..",
-      "numberOfPeople": 1,
-      "tourInfo": "Eiffel Tower"
-    },
-    {
-      "id": "14f4",
-      "phoneNumber": "+996555555555",
-      "commentaries": "let's go to italy",
-      "numberOfPeople": 4,
-      "tourInfo": "Colosseum"
-    },
-    {
-      "id": "33da",
+      "id": "3c0a",
       "phoneNumber": "+996555555555",
       "commentaries": "testing..",
       "numberOfPeople": 2,
       "tourInfo": "Tokyo Tower"
+    },
+    {
+      "id": "47dd",
+      "phoneNumber": "+996776767676",
+      "commentaries": "testing..",
+      "numberOfPeople": 2,
+      "tourInfo": "Christ the Redeemer"
     }
   ]
 }
